@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E4CD3E01D1CF7EE002F89C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3DF1D1CF7EE002F89C4 /* AppDelegate.swift */; };
+		8E4CD3E21D1CF7EE002F89C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3E11D1CF7EE002F89C4 /* ViewController.swift */; };
+		8E4CD3E51D1CF7EE002F89C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CD3E31D1CF7EE002F89C4 /* Main.storyboard */; };
+		8E4CD3E71D1CF7EE002F89C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CD3E61D1CF7EE002F89C4 /* Assets.xcassets */; };
+		8E4CD3EA1D1CF7EE002F89C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CD3E81D1CF7EE002F89C4 /* LaunchScreen.storyboard */; };
+		8E4CD3F51D1CF7EE002F89C4 /* VR360PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3F41D1CF7EE002F89C4 /* VR360PlayerTests.swift */; };
+		8E4CD4001D1CF7EE002F89C4 /* VR360PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3FF1D1CF7EE002F89C4 /* VR360PlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E4CD3F11D1CF7EE002F89C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E4CD3D41D1CF7EE002F89C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E4CD3DB1D1CF7EE002F89C4;
+			remoteInfo = VR360Player;
+		};
+		8E4CD3FC1D1CF7EE002F89C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E4CD3D41D1CF7EE002F89C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E4CD3DB1D1CF7EE002F89C4;
+			remoteInfo = VR360Player;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E4CD3DC1D1CF7EE002F89C4 /* VR360Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VR360Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4CD3DF1D1CF7EE002F89C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E4CD3E11D1CF7EE002F89C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E4CD3E41D1CF7EE002F89C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E4CD3E61D1CF7EE002F89C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E4CD3E91D1CF7EE002F89C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E4CD3EB1D1CF7EE002F89C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4CD3F01D1CF7EE002F89C4 /* VR360PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VR360PlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4CD3F41D1CF7EE002F89C4 /* VR360PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VR360PlayerTests.swift; sourceTree = "<group>"; };
+		8E4CD3F61D1CF7EE002F89C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4CD3FB1D1CF7EE002F89C4 /* VR360PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VR360PlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4CD3FF1D1CF7EE002F89C4 /* VR360PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VR360PlayerUITests.swift; sourceTree = "<group>"; };
+		8E4CD4011D1CF7EE002F89C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E4CD3D91D1CF7EE002F89C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4CD3ED1D1CF7EE002F89C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4CD3F81D1CF7EE002F89C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E4CD3D31D1CF7EE002F89C4 = {
+			isa = PBXGroup;
+			children = (
+				8E4CD3DE1D1CF7EE002F89C4 /* VR360Player */,
+				8E4CD3F31D1CF7EE002F89C4 /* VR360PlayerTests */,
+				8E4CD3FE1D1CF7EE002F89C4 /* VR360PlayerUITests */,
+				8E4CD3DD1D1CF7EE002F89C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4CD3DD1D1CF7EE002F89C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CD3DC1D1CF7EE002F89C4 /* VR360Player.app */,
+				8E4CD3F01D1CF7EE002F89C4 /* VR360PlayerTests.xctest */,
+				8E4CD3FB1D1CF7EE002F89C4 /* VR360PlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E4CD3DE1D1CF7EE002F89C4 /* VR360Player */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CD3DF1D1CF7EE002F89C4 /* AppDelegate.swift */,
+				8E4CD3E11D1CF7EE002F89C4 /* ViewController.swift */,
+				8E4CD3E31D1CF7EE002F89C4 /* Main.storyboard */,
+				8E4CD3E61D1CF7EE002F89C4 /* Assets.xcassets */,
+				8E4CD3E81D1CF7EE002F89C4 /* LaunchScreen.storyboard */,
+				8E4CD3EB1D1CF7EE002F89C4 /* Info.plist */,
+			);
+			path = VR360Player;
+			sourceTree = "<group>";
+		};
+		8E4CD3F31D1CF7EE002F89C4 /* VR360PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CD3F41D1CF7EE002F89C4 /* VR360PlayerTests.swift */,
+				8E4CD3F61D1CF7EE002F89C4 /* Info.plist */,
+			);
+			path = VR360PlayerTests;
+			sourceTree = "<group>";
+		};
+		8E4CD3FE1D1CF7EE002F89C4 /* VR360PlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CD3FF1D1CF7EE002F89C4 /* VR360PlayerUITests.swift */,
+				8E4CD4011D1CF7EE002F89C4 /* Info.plist */,
+			);
+			path = VR360PlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E4CD3DB1D1CF7EE002F89C4 /* VR360Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4CD4041D1CF7EE002F89C4 /* Build configuration list for PBXNativeTarget "VR360Player" */;
+			buildPhases = (
+				8E4CD3D81D1CF7EE002F89C4 /* Sources */,
+				8E4CD3D91D1CF7EE002F89C4 /* Frameworks */,
+				8E4CD3DA1D1CF7EE002F89C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VR360Player;
+			productName = VR360Player;
+			productReference = 8E4CD3DC1D1CF7EE002F89C4 /* VR360Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E4CD3EF1D1CF7EE002F89C4 /* VR360PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4CD4071D1CF7EE002F89C4 /* Build configuration list for PBXNativeTarget "VR360PlayerTests" */;
+			buildPhases = (
+				8E4CD3EC1D1CF7EE002F89C4 /* Sources */,
+				8E4CD3ED1D1CF7EE002F89C4 /* Frameworks */,
+				8E4CD3EE1D1CF7EE002F89C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E4CD3F21D1CF7EE002F89C4 /* PBXTargetDependency */,
+			);
+			name = VR360PlayerTests;
+			productName = VR360PlayerTests;
+			productReference = 8E4CD3F01D1CF7EE002F89C4 /* VR360PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E4CD3FA1D1CF7EE002F89C4 /* VR360PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4CD40A1D1CF7EE002F89C4 /* Build configuration list for PBXNativeTarget "VR360PlayerUITests" */;
+			buildPhases = (
+				8E4CD3F71D1CF7EE002F89C4 /* Sources */,
+				8E4CD3F81D1CF7EE002F89C4 /* Frameworks */,
+				8E4CD3F91D1CF7EE002F89C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E4CD3FD1D1CF7EE002F89C4 /* PBXTargetDependency */,
+			);
+			name = VR360PlayerUITests;
+			productName = VR360PlayerUITests;
+			productReference = 8E4CD3FB1D1CF7EE002F89C4 /* VR360PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E4CD3D41D1CF7EE002F89C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brian Endo";
+				TargetAttributes = {
+					8E4CD3DB1D1CF7EE002F89C4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8E4CD3EF1D1CF7EE002F89C4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8E4CD3DB1D1CF7EE002F89C4;
+					};
+					8E4CD3FA1D1CF7EE002F89C4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8E4CD3DB1D1CF7EE002F89C4;
+					};
+				};
+			};
+			buildConfigurationList = 8E4CD3D71D1CF7EE002F89C4 /* Build configuration list for PBXProject "VR360Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E4CD3D31D1CF7EE002F89C4;
+			productRefGroup = 8E4CD3DD1D1CF7EE002F89C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E4CD3DB1D1CF7EE002F89C4 /* VR360Player */,
+				8E4CD3EF1D1CF7EE002F89C4 /* VR360PlayerTests */,
+				8E4CD3FA1D1CF7EE002F89C4 /* VR360PlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E4CD3DA1D1CF7EE002F89C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4CD3EA1D1CF7EE002F89C4 /* LaunchScreen.storyboard in Resources */,
+				8E4CD3E71D1CF7EE002F89C4 /* Assets.xcassets in Resources */,
+				8E4CD3E51D1CF7EE002F89C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4CD3EE1D1CF7EE002F89C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4CD3F91D1CF7EE002F89C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E4CD3D81D1CF7EE002F89C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4CD3E21D1CF7EE002F89C4 /* ViewController.swift in Sources */,
+				8E4CD3E01D1CF7EE002F89C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4CD3EC1D1CF7EE002F89C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4CD3F51D1CF7EE002F89C4 /* VR360PlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4CD3F71D1CF7EE002F89C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4CD4001D1CF7EE002F89C4 /* VR360PlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E4CD3F21D1CF7EE002F89C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E4CD3DB1D1CF7EE002F89C4 /* VR360Player */;
+			targetProxy = 8E4CD3F11D1CF7EE002F89C4 /* PBXContainerItemProxy */;
+		};
+		8E4CD3FD1D1CF7EE002F89C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E4CD3DB1D1CF7EE002F89C4 /* VR360Player */;
+			targetProxy = 8E4CD3FC1D1CF7EE002F89C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E4CD3E31D1CF7EE002F89C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4CD3E41D1CF7EE002F89C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E4CD3E81D1CF7EE002F89C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4CD3E91D1CF7EE002F89C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E4CD4021D1CF7EE002F89C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E4CD4031D1CF7EE002F89C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E4CD4051D1CF7EE002F89C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VR360Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianendo.VR360Player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E4CD4061D1CF7EE002F89C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VR360Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianendo.VR360Player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E4CD4081D1CF7EE002F89C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VR360PlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianendo.VR360PlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VR360Player.app/VR360Player";
+			};
+			name = Debug;
+		};
+		8E4CD4091D1CF7EE002F89C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VR360PlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianendo.VR360PlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VR360Player.app/VR360Player";
+			};
+			name = Release;
+		};
+		8E4CD40B1D1CF7EE002F89C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VR360PlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianendo.VR360PlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VR360Player;
+			};
+			name = Debug;
+		};
+		8E4CD40C1D1CF7EE002F89C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VR360PlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianendo.VR360PlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VR360Player;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4CD3D71D1CF7EE002F89C4 /* Build configuration list for PBXProject "VR360Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4CD4021D1CF7EE002F89C4 /* Debug */,
+				8E4CD4031D1CF7EE002F89C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4CD4041D1CF7EE002F89C4 /* Build configuration list for PBXNativeTarget "VR360Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4CD4051D1CF7EE002F89C4 /* Debug */,
+				8E4CD4061D1CF7EE002F89C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E4CD4071D1CF7EE002F89C4 /* Build configuration list for PBXNativeTarget "VR360PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4CD4081D1CF7EE002F89C4 /* Debug */,
+				8E4CD4091D1CF7EE002F89C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E4CD40A1D1CF7EE002F89C4 /* Build configuration list for PBXNativeTarget "VR360PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4CD40B1D1CF7EE002F89C4 /* Debug */,
+				8E4CD40C1D1CF7EE002F89C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E4CD3D41D1CF7EE002F89C4 /* Project object */;
+}
