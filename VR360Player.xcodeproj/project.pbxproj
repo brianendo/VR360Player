@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E4353E51D2199E8003B6EB6 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4353DE1D2199E8003B6EB6 /* Camera.swift */; };
+		8E4353E61D2199E8003B6EB6 /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4353E01D2199E8003B6EB6 /* Renderable.swift */; };
+		8E4353E81D2199E8003B6EB6 /* Skysphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4353E31D2199E8003B6EB6 /* Skysphere.swift */; };
+		8E4353E91D2199E8003B6EB6 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4353E41D2199E8003B6EB6 /* Vertex.swift */; };
+		8E4353EE1D2199F1003B6EB6 /* Scene3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4353EB1D2199F1003B6EB6 /* Scene3DView.swift */; };
+		8E4353EF1D2199F1003B6EB6 /* Scene3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4353EC1D2199F1003B6EB6 /* Scene3DViewController.swift */; };
 		8E4CD3E01D1CF7EE002F89C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3DF1D1CF7EE002F89C4 /* AppDelegate.swift */; };
 		8E4CD3E21D1CF7EE002F89C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3E11D1CF7EE002F89C4 /* ViewController.swift */; };
 		8E4CD3E51D1CF7EE002F89C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CD3E31D1CF7EE002F89C4 /* Main.storyboard */; };
@@ -14,6 +20,9 @@
 		8E4CD3EA1D1CF7EE002F89C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4CD3E81D1CF7EE002F89C4 /* LaunchScreen.storyboard */; };
 		8E4CD3F51D1CF7EE002F89C4 /* VR360PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3F41D1CF7EE002F89C4 /* VR360PlayerTests.swift */; };
 		8E4CD4001D1CF7EE002F89C4 /* VR360PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD3FF1D1CF7EE002F89C4 /* VR360PlayerUITests.swift */; };
+		8E4CD40E1D1CF9EE002F89C4 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD40D1D1CF9EE002F89C4 /* Video.swift */; };
+		8E4CD4101D1D08FD002F89C4 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CD40F1D1D08FD002F89C4 /* FeedTableViewCell.swift */; };
+		AA9C6BECB62A319B555D3D98 /* Pods_VR360Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3BE489BE33AD5F18AACB29 /* Pods_VR360Player.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69F24CEFED5FF2584F98D679 /* Pods-VR360Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VR360Player.release.xcconfig"; path = "Pods/Target Support Files/Pods-VR360Player/Pods-VR360Player.release.xcconfig"; sourceTree = "<group>"; };
+		6D3BE489BE33AD5F18AACB29 /* Pods_VR360Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VR360Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4353DE1D2199E8003B6EB6 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		8E4353E01D2199E8003B6EB6 /* Renderable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Renderable.swift; path = ../Interfaces/Renderable.swift; sourceTree = "<group>"; };
+		8E4353E31D2199E8003B6EB6 /* Skysphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Skysphere.swift; path = ../Objects/Skysphere.swift; sourceTree = "<group>"; };
+		8E4353E41D2199E8003B6EB6 /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vertex.swift; path = ../Objects/Vertex.swift; sourceTree = "<group>"; };
+		8E4353EB1D2199F1003B6EB6 /* Scene3DView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene3DView.swift; sourceTree = "<group>"; };
+		8E4353EC1D2199F1003B6EB6 /* Scene3DViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene3DViewController.swift; sourceTree = "<group>"; };
 		8E4CD3DC1D1CF7EE002F89C4 /* VR360Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VR360Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4CD3DF1D1CF7EE002F89C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E4CD3E11D1CF7EE002F89C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,10 @@
 		8E4CD3FB1D1CF7EE002F89C4 /* VR360PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VR360PlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E4CD3FF1D1CF7EE002F89C4 /* VR360PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VR360PlayerUITests.swift; sourceTree = "<group>"; };
 		8E4CD4011D1CF7EE002F89C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4CD40D1D1CF9EE002F89C4 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		8E4CD40F1D1D08FD002F89C4 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		8E4CD4131D1DB408002F89C4 /* VR360Player-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VR360Player-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5AD537CD5BAD9B503F07AE9 /* Pods-VR360Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VR360Player.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VR360Player/Pods-VR360Player.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9C6BECB62A319B555D3D98 /* Pods_VR360Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20B67568BBFBF2B2767A761B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD537CD5BAD9B503F07AE9 /* Pods-VR360Player.debug.xcconfig */,
+				69F24CEFED5FF2584F98D679 /* Pods-VR360Player.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		45782033A99F343CA2EFFA5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D3BE489BE33AD5F18AACB29 /* Pods_VR360Player.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4353DD1D2199E8003B6EB6 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				8E4353DE1D2199E8003B6EB6 /* Camera.swift */,
+				8E4353E01D2199E8003B6EB6 /* Renderable.swift */,
+				8E4353E31D2199E8003B6EB6 /* Skysphere.swift */,
+				8E4353E41D2199E8003B6EB6 /* Vertex.swift */,
+			);
+			name = Camera;
+			path = ../Domain/Camera;
+			sourceTree = "<group>";
+		};
+		8E4353EA1D2199F1003B6EB6 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				8E4353EB1D2199F1003B6EB6 /* Scene3DView.swift */,
+				8E4353EC1D2199F1003B6EB6 /* Scene3DViewController.swift */,
+			);
+			name = Player;
+			path = ../Domain/Player;
+			sourceTree = "<group>";
+		};
+		8E4353F11D21E19C003B6EB6 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				8E4CD3E11D1CF7EE002F89C4 /* ViewController.swift */,
+				8E4CD40F1D1D08FD002F89C4 /* FeedTableViewCell.swift */,
+				8E4CD40D1D1CF9EE002F89C4 /* Video.swift */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
 		8E4CD3D31D1CF7EE002F89C4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +152,8 @@
 				8E4CD3F31D1CF7EE002F89C4 /* VR360PlayerTests */,
 				8E4CD3FE1D1CF7EE002F89C4 /* VR360PlayerUITests */,
 				8E4CD3DD1D1CF7EE002F89C4 /* Products */,
+				20B67568BBFBF2B2767A761B /* Pods */,
+				45782033A99F343CA2EFFA5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +171,14 @@
 			isa = PBXGroup;
 			children = (
 				8E4CD3DF1D1CF7EE002F89C4 /* AppDelegate.swift */,
-				8E4CD3E11D1CF7EE002F89C4 /* ViewController.swift */,
+				8E4353F11D21E19C003B6EB6 /* Feed */,
+				8E4353DD1D2199E8003B6EB6 /* Camera */,
+				8E4353EA1D2199F1003B6EB6 /* Player */,
 				8E4CD3E31D1CF7EE002F89C4 /* Main.storyboard */,
 				8E4CD3E61D1CF7EE002F89C4 /* Assets.xcassets */,
 				8E4CD3E81D1CF7EE002F89C4 /* LaunchScreen.storyboard */,
 				8E4CD3EB1D1CF7EE002F89C4 /* Info.plist */,
+				8E4CD4131D1DB408002F89C4 /* VR360Player-Bridging-Header.h */,
 			);
 			path = VR360Player;
 			sourceTree = "<group>";
@@ -132,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E4CD4041D1CF7EE002F89C4 /* Build configuration list for PBXNativeTarget "VR360Player" */;
 			buildPhases = (
+				B4236822D9A4708AE2B39208 /* Check Pods Manifest.lock */,
 				8E4CD3D81D1CF7EE002F89C4 /* Sources */,
 				8E4CD3D91D1CF7EE002F89C4 /* Frameworks */,
 				8E4CD3DA1D1CF7EE002F89C4 /* Resources */,
+				450FB6FD0016527310375AB7 /* Embed Pods Frameworks */,
+				29286EF30C1BD60245B2E2E9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +330,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29286EF30C1BD60245B2E2E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VR360Player/Pods-VR360Player-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		450FB6FD0016527310375AB7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VR360Player/Pods-VR360Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4236822D9A4708AE2B39208 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E4CD3D81D1CF7EE002F89C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8E4CD3E21D1CF7EE002F89C4 /* ViewController.swift in Sources */,
+				8E4CD4101D1D08FD002F89C4 /* FeedTableViewCell.swift in Sources */,
+				8E4353EF1D2199F1003B6EB6 /* Scene3DViewController.swift in Sources */,
+				8E4353EE1D2199F1003B6EB6 /* Scene3DView.swift in Sources */,
+				8E4353E61D2199E8003B6EB6 /* Renderable.swift in Sources */,
+				8E4353E91D2199E8003B6EB6 /* Vertex.swift in Sources */,
+				8E4353E51D2199E8003B6EB6 /* Camera.swift in Sources */,
+				8E4CD40E1D1CF9EE002F89C4 /* Video.swift in Sources */,
 				8E4CD3E01D1CF7EE002F89C4 /* AppDelegate.swift in Sources */,
+				8E4353E81D2199E8003B6EB6 /* Skysphere.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +532,30 @@
 		};
 		8E4CD4051D1CF7EE002F89C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5AD537CD5BAD9B503F07AE9 /* Pods-VR360Player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VR360Player/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianendo.VR360Player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VR360Player/VR360Player-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8E4CD4061D1CF7EE002F89C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F24CEFED5FF2584F98D679 /* Pods-VR360Player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VR360Player/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brianendo.VR360Player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VR360Player/VR360Player-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +624,7 @@
 				8E4CD4061D1CF7EE002F89C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E4CD4071D1CF7EE002F89C4 /* Build configuration list for PBXNativeTarget "VR360PlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +633,7 @@
 				8E4CD4091D1CF7EE002F89C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E4CD40A1D1CF7EE002F89C4 /* Build configuration list for PBXNativeTarget "VR360PlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +642,7 @@
 				8E4CD40C1D1CF7EE002F89C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

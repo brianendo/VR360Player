@@ -1,19 +1,11 @@
 //
 //  Camera.swift
-//  Spherical Video Player
+//  VR360Player
 //
-//  Created by Pawel Leszkiewicz on 18.01.2016.
-//  Copyright © 2016 Nomtek. All rights reserved.
+//  Created by Brian Endo on 6/23/16.
+//  Copyright © 2016 Brian Endo. All rights reserved.
 //
-//  This program is free software: you can redistribute it and/or modify
-//  it under the terms of the GNU General Public License as published by
-//  the Free Software Foundation, either version 3 of the License, or
-//  (at your option) any later version.
-//
-//  This program is distributed in the hope that it will be useful,
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//  GNU General Public License for more details.
+
 
 
 import GLKit
@@ -102,22 +94,5 @@ class Camera: NSObject
                 xaxis.z, yaxis.z, zaxis.z, 0,
                 0, 0, 0, 1
         ))
-    }
-    func updateMotion(cRoll: Float, cPitch: Float, cYaw: Float) {
-        
-        var projectionMatrix = GLKMatrix4MakePerspective(GLKMathDegreesToRadians(Float(DEFAULT_OVERTURE)), Float(aspect), 0.1, 400.0)
-        projectionMatrix = GLKMatrix4Rotate(projectionMatrix, Float(ES_PI), 1.0, 0.0, 0.0)
-        
-        var modelViewMatrix = GLKMatrix4Identity
-        let scale = Float(SphereScale)
-        modelViewMatrix = GLKMatrix4Scale(modelViewMatrix, scale, scale, scale)
-        
-        modelViewMatrix = GLKMatrix4RotateX(modelViewMatrix, cRoll); // Up/Down axis
-        modelViewMatrix = GLKMatrix4RotateY(modelViewMatrix, cPitch);
-        modelViewMatrix = GLKMatrix4RotateZ(modelViewMatrix, cYaw);
-        
-        modelViewMatrix = GLKMatrix4RotateX(modelViewMatrix, Float(ROLL_CORRECTION));
-        
-//        self.viewMatrix = GLKMatrix4Multiply(projectionMatrix, modelViewMatrix)
     }
 }

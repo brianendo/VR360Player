@@ -1,0 +1,6 @@
+framework module Pods_VR360Player {
+  umbrella header "Pods-VR360Player-umbrella.h"
+
+  export *
+  module * { export * }
+}
